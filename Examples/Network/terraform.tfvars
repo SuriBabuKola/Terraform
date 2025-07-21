@@ -1,0 +1,5 @@
+resource_group_name     = "dev-rg"
+resource_group_location = "East Us"
+virtual_network_name    = "dev-vnet"
+subnet01_name           = "dev-subnet01"
+subnet02_name           = "dev-subnet02"
