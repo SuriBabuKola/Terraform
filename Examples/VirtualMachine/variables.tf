@@ -29,3 +29,15 @@ variable "azurerm_subnet02_name" {
 variable "azurerm_subnet02_cidr" {
   default = ["10.0.2.0/24"]
 }
+
+variable "azurerm_public_ip_name" {
+  default = "terraform-vm-public-ip"
+}
+
+variable "azurerm_nic_name" {
+  default = "terraform-nic"
+}
+
+variable "azurerm_vm_name" {
+  default = "terraform-vm"
+}
