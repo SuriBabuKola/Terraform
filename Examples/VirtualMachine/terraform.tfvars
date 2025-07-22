@@ -11,3 +11,5 @@ azurerm_subnet02_cidr = ["192.168.2.0/24"]
 azurerm_public_ip_name = "dev-vm-public-ip"
 azurerm_nic_name       = "dev-nic"
 azurerm_vm_name        = "dev-vm"
+
+azurerm_nsg_name = "dev-nsg"

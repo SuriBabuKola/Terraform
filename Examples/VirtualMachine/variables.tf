@@ -41,3 +41,7 @@ variable "azurerm_nic_name" {
 variable "azurerm_vm_name" {
   default = "terraform-vm"
 }
+
+variable "azurerm_nsg_name" {
+  default = "terraform-nsg"
+}
